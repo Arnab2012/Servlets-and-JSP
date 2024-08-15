@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>loadonstartUp</servlet-name>
+    <servlet-class>com.arnab.Servlet.LoadOnStartUp</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loadonstartUp</servlet-name>
+    <url-pattern>/load</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>loadonstartUp1</servlet-name>
+    <servlet-class>com.arnab.Servlet.LoadOnStartUp1</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loadonstartUp1</servlet-name>
+    <url-pattern>/load1</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>genericServlet1</servlet-name>
+		<servlet-class>com.arnab.GenericServlet.GenericServlet1</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>genericServlet1</servlet-name>
+		<url-pattern>/generic</url-pattern>
+	</servlet-mapping>
+</web-app>

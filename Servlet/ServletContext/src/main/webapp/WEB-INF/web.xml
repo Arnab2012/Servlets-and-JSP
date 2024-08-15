@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>ServletContext</display-name>
+	<context-param>
+		<param-name>name1</param-name>
+		<param-value>val1</param-value>
+	</context-param>
+	<context-param>
+		<param-name>name2</param-name>
+		<param-value>val2</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>servletContext</servlet-name>
+		<servlet-class>com.arnab.Servlet.ServletContext1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletContext</servlet-name>
+		<url-pattern>/context</url-pattern>
+	</servlet-mapping>
+</web-app>
